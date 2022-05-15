@@ -4,9 +4,11 @@ $(document).ready(function(){
         i++
         if (i%2==0){
             $(this).css('background-color','red')
+            $(".miaclasse").css('background-color','red')
         }
         else{
             $(this).css('background-color','green')
+            $(".miaclasse").css('background-color','green')
         }
     })
 
